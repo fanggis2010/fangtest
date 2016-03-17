@@ -1,4 +1,4 @@
-(function() {
+﻿(function() {
         require.config({
             paths: {
                 echarts: 'http://echarts.baidu.com/build/dist'
@@ -30,7 +30,7 @@
 		map.enableScrollWheelZoom(true);//允许滚轮滑动
 		var mapStyle = {
 			features: ["road", "building", "water", "land"],
-			style: "midnight"
+			style: "pink"
 		}//定义一个主题
 		map.setMapStyle(mapStyle);
 		option = {
